@@ -30,5 +30,9 @@ module.exports = {
     curly: ["error", "all"],
     "object-curly-spacing": ["error", "always"],
     "nonblock-statement-body-position": ["error", "below"],
+    "sort-imports": "off",
+    "import/order": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
   },
 };
