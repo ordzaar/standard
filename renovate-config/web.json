@@ -38,6 +38,10 @@
     {
       "matchPackagePatterns": ["^@astro", "^astro"],
       "groupName": "@astrojs"
+    },
+    {
+      "matchPackagePatterns": ["^@ordzaar/standard-"],
+      "groupName": "@ordzaar/standard"
     }
   ]
 }
