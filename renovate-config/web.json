@@ -1,0 +1,43 @@
+{
+  "description": "Default renovate settings",
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    "helpers:pinGitHubActionDigests",
+    ":semanticCommitTypeAll(bump)"
+  ],
+  "rebaseWhen": "behind-base-branch",
+  "dependencyDashboard": true,
+  "dependencyDashboardAutoclose": false,
+  "major": {
+    "dependencyDashboardApproval": true
+  },
+  "rangeStrategy": "bump",
+  "regexManagers": [
+    {
+      "fileMatch": ["^.github/(?:workflows|actions)/.+\\.yml$"],
+      "matchStrings": [
+        "datasource=(?<datasource>[a-z-]+?) depName=(?<depName>[^\\s]+?)(?: (?:lookupName|packageName)=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[a-z-0-9]+?))?\\s+[A-Za-z0-9_]+?_VERSION\\s*:\\s*[\"']?(?<currentValue>.+?)[\"']?\\s"
+      ]
+    }
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["node", "npm", "yarn", "@types/node"],
+      "groupName": "engines",
+      "enabled": false
+    },
+    {
+      "matchPackagePatterns": ["eslint"],
+      "groupName": "eslint"
+    },
+    {
+      "matchPackagePatterns": ["jest"],
+      "groupName": "jest"
+    },
+    {
+      "matchPackagePatterns": ["^@astro", "^astro"],
+      "groupName": "@astrojs"
+    }
+  ]
+}

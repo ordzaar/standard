@@ -1,0 +1,33 @@
+{
+  "name": "@ordzaar/standard",
+  "version": "0.0.0",
+  "private": true,
+  "files": [],
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "format": "prettier --write .",
+    "lint": "turbo run lint -- --fix",
+    "prepare": "husky install",
+    "test": "turbo run test",
+    "write": "turbo run write"
+  },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown"
+  },
+  "prettier": "@ordzaar/standard-prettier",
+  "devDependencies": {
+    "@ordzaar/standard-prettier": "workspace:*",
+    "husky": "^8.0.3",
+    "eslint": "^8.52.0",
+    "lint-staged": "^15.0.2",
+    "prettier": "^3.0.3",
+    "semver": "^7.5.4",
+    "turbo": "^1.10.16",
+    "typescript": "5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.10.0"
+  }
+}
