@@ -153,7 +153,7 @@ importers:
   packages/standard-typescript:
     dependencies:
       typescript:
-        specifier: '*'
+        specifier: 5.2.2
         version: 5.2.2
 
   packages/standard-web:
