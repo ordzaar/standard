@@ -48,9 +48,9 @@ module.exports = {
   overrides: [
     {
       /**
-       * Enforce PascalCase for filenames, ignoring common files like `index.ts`, `pages.tsx`,`layout.tsx`, `main.ts`.
+       * Enforce PascalCase for filenames, ignoring common files like `index.ts`, `main.ts`.
        */
-      files: ["src/**/{index,pages,layout,main}.{ts,tsx,js,jsx}"],
+      files: ["src/**/{index,main}.{ts,tsx,js,jsx}"],
       rules: {
         "check-file/filename-naming-convention": ["off"],
       },
