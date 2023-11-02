@@ -33,28 +33,8 @@ module.exports = {
     "import/order": "off",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
-
-    // enforce PascalNaming for all files
-    "check-file/filename-naming-convention": [
-      "error",
-      {
-        "src/**/*.{js,jsx,tsx,ts}": "PASCAL_CASE",
-      },
-      {
-        ignoreMiddleExtensions: true,
-      },
-    ],
   },
   overrides: [
-    {
-      /**
-       * Enforce PascalCase for filenames, ignoring common files like `index.ts`, `main.ts`.
-       */
-      files: ["src/**/{index,main}.{ts,tsx,js,jsx}"],
-      rules: {
-        "check-file/filename-naming-convention": ["off"],
-      },
-    },
     {
       files: ["**/*.{test,spec,unit,i9n,e2e}.{js,ts}"],
       rules: {
