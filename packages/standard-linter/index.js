@@ -20,6 +20,14 @@ module.exports = {
         format: ["camelCase", "PascalCase", "UPPER_CASE"],
         leadingUnderscore: "allow",
       },
+      {
+        selector: "function",
+        format: ["camelCase", "PascalCase"],
+      },
+      {
+        selector: "typeLike",
+        format: ["PascalCase"],
+      },
     ],
     /**
      * Separates out the `no-unused-vars` rule depending on it being an import statement in the AST and providing
