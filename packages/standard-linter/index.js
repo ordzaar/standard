@@ -12,6 +12,15 @@ module.exports = {
     "@typescript-eslint/no-floating-promises": "error",
     "no-console": "error",
 
+    // Fix airbnb-typescript/base rule to allow leading underscores for unused vars
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        selector: "variable",
+        format: ["camelCase", "PascalCase", "UPPER_CASE"],
+        leadingUnderscore: "allow",
+      },
+    ],
     /**
      * Separates out the `no-unused-vars` rule depending on it being an import statement in the AST and providing
      * an auto-fix rule to remove the nodes if they are imports.
