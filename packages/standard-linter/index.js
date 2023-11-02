@@ -33,6 +33,9 @@ module.exports = {
     "import/order": "off",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
+
+    // To be overridden by each project
+    "check-file/filename-naming-convention": "off",
   },
   overrides: [
     {
