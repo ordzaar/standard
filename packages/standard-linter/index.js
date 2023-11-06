@@ -15,8 +15,8 @@ module.exports = {
     "max-classes-per-file": "off",
     "class-methods-use-this": "off",
     "no-await-in-loop": "off",
-    // functions and classes are going to be hoisted in runtime
-    "no-use-before-define": ["error", { functions: false, classes: false }],
+    // functions and classes are going to be hoisted in runtime, but don't let var be used before declaration
+    "@typescript-eslint/no-use-before-define": ["error", { functions: false, classes: false, variables: true }],
 
     // Fix airbnb-typescript/base rule to allow leading underscores for unused vars
     "@typescript-eslint/naming-convention": [
