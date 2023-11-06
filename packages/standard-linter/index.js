@@ -17,8 +17,6 @@ module.exports = {
     "no-await-in-loop": "off",
     // functions and classes are going to be hoisted in runtime
     "no-use-before-define": ["error", { functions: false, classes: false }],
-    // https://github.com/airbnb/javascript/issues/1271
-    "no-restricted-syntax": "off",
 
     // Fix airbnb-typescript/base rule to allow leading underscores for unused vars
     "@typescript-eslint/naming-convention": [
