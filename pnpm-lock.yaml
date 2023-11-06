@@ -52,7 +52,7 @@ importers:
         version: 3.0.1(@nestjs/common@10.2.8)(axios@1.6.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/bullmq':
         specifier: ^10.0.1
-        version: 10.0.1(@nestjs/common@10.2.8)(@nestjs/core@10.2.8)(bullmq@4.12.7)
+        version: 10.0.1(@nestjs/common@10.2.8)(@nestjs/core@10.2.8)(bullmq@4.13.0)
       '@nestjs/cache-manager':
         specifier: ^2.1.0
         version: 2.1.0(@nestjs/common@10.2.8)(@nestjs/core@10.2.8)(cache-manager@5.2.4)(reflect-metadata@0.1.13)(rxjs@7.8.1)
@@ -102,8 +102,8 @@ importers:
         specifier: ^0.4.0
         version: 0.4.0
       bullmq:
-        specifier: ^4.12.7
-        version: 4.12.7
+        specifier: ^4.13.0
+        version: 4.13.0
       cache-manager:
         specifier: ^5.2.4
         version: 5.2.4
@@ -2031,7 +2031,7 @@ packages:
       tslib: 2.6.0
     dev: false
 
-  /@nestjs/bullmq@10.0.1(@nestjs/common@10.2.8)(@nestjs/core@10.2.8)(bullmq@4.12.7):
+  /@nestjs/bullmq@10.0.1(@nestjs/common@10.2.8)(@nestjs/core@10.2.8)(bullmq@4.13.0):
     resolution: {integrity: sha512-YJtfJXfnQinN7OvGx/Qd6jlQFu56zVnI1SppftSS7gkthB2CbJQAjkrfCEPDjp11wbPptBhUnatIL2N+nH/3kA==}
     peerDependencies:
       '@nestjs/common': ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -2041,7 +2041,7 @@ packages:
       '@nestjs/bull-shared': 10.0.1(@nestjs/common@10.2.8)(@nestjs/core@10.2.8)
       '@nestjs/common': 10.2.8(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/core': 10.2.8(@nestjs/common@10.2.8)(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      bullmq: 4.12.7
+      bullmq: 4.13.0
       tslib: 2.6.0
     dev: false
 
@@ -3649,8 +3649,8 @@ packages:
       ieee754: 1.2.1
     dev: false
 
-  /bullmq@4.12.7:
-    resolution: {integrity: sha512-wigDuI8dyzY1jaUZLrwMp0L7t2glp0eErnRCYlVwi56DUWYSrzrOB3Vz8SaAmpc3Ro5dS4mBwt7RDJG3jiuJKA==}
+  /bullmq@4.13.0:
+    resolution: {integrity: sha512-aB6j9X/4Z+H2wxHWaHMeMP8jqsgSYMFQxoupRrkrwfrcfIRuSUm3yc1A8zl5RqS2ck5meRgEet/Uf4wc/8YvRQ==}
     dependencies:
       cron-parser: 4.9.0
       glob: 8.1.0
