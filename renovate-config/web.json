@@ -38,6 +38,10 @@
     {
       "matchPackagePatterns": ["^@ordzaar/standard-"],
       "groupName": "@ordzaar/standard"
+    },
+    {
+      "matchPackagePatterns": ["bullmq", "^bullmq"],
+      "groupName": "bullmq"
     }
   ]
 }
