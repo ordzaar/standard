@@ -11,6 +11,7 @@ module.exports = {
   rules: {
     "@typescript-eslint/no-floating-promises": "error",
     "no-console": "error",
+    curly: "error",
     "max-classes-per-file": "off",
     "class-methods-use-this": "off",
     "no-await-in-loop": "off",
