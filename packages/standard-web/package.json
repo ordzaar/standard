@@ -8,7 +8,7 @@
     "@ordzaar/standard-typescript": "workspace:*",
     "@reduxjs/toolkit": "^1.9.7",
     "@tanstack/react-query": "^5.7.2",
-    "@types/react": "18.2.34",
+    "@types/react": "18.2.35",
     "@types/react-dom": "18.2.14",
     "next": "14.0.1",
     "next-sitemap": "^4.2.3",
