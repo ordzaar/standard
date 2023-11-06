@@ -11,6 +11,7 @@ module.exports = {
   rules: {
     "@typescript-eslint/no-floating-promises": "error",
     "no-console": "error",
+    curly: "error",
 
     // Fix airbnb-typescript/base rule to allow leading underscores for unused vars
     "@typescript-eslint/naming-convention": [
