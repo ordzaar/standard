@@ -10,7 +10,7 @@
     "@tanstack/react-query": "^5.8.4",
     "@types/react": "18.2.37",
     "@types/react-dom": "18.2.15",
-    "next": "14.0.2",
+    "next": "14.0.3",
     "next-sitemap": "^4.2.3",
     "nextjs-progressbar": "^0.0.16",
     "react": "18.2.0",
