@@ -5,6 +5,31 @@ module.exports = {
   },
   plugins: ["simple-import-sort", "prettier"],
   rules: {
+    // Fix airbnb-typescript/base rule to allow leading underscores for unused vars
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        selector: "variable",
+        format: ["camelCase", "PascalCase", "UPPER_CASE"],
+        leadingUnderscore: "allow",
+      },
+      {
+        selector: "function",
+        format: ["camelCase", "PascalCase"],
+      },
+      {
+        selector: "typeLike",
+        format: ["PascalCase"],
+      },
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        argsIgnorePattern: "^_",
+        varsIgnorePattern: "^_",
+        caughtErrorsIgnorePattern: "^_",
+      },
+    ],
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [
