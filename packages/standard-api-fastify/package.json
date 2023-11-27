@@ -19,7 +19,7 @@
     "@nestjs/platform-fastify": "^10.2.10",
     "@nestjs/schematics": "^10.0.3",
     "@nestjs/swagger": "^7.1.16",
-    "@nestjs/terminus": "^10.1.1",
+    "@nestjs/terminus": "^10.2.0",
     "@nestjs/testing": "^10.2.10",
     "@nestjs/throttler": "^5.0.1",
     "@ordzaar/standard-typescript": "workspace:*",
