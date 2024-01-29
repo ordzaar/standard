@@ -8,7 +8,7 @@
     "clean": "turbo run clean",
     "format": "prettier --write .",
     "lint": "turbo run lint -- --fix",
-    "prepare": "husky install",
+    "prepare": "husky",
     "test": "turbo run test",
     "write": "turbo run write"
   },
@@ -19,7 +19,7 @@
   "devDependencies": {
     "@ordzaar/standard-prettier": "workspace:*",
     "eslint": "^8.56.0",
-    "husky": "^8.0.3",
+    "husky": "^9.0.6",
     "lint-staged": "^15.2.0",
     "prettier": "^3.2.4",
     "semver": "^7.5.4",
