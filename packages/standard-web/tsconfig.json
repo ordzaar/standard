@@ -19,8 +19,8 @@
     "incremental": true,
     "plugins": [
       {
-        "name": "next",
-      },
+        "name": "next"
+      }
     ],
     "baseUrl": "src",
     "paths": {
@@ -31,9 +31,9 @@
       "@hooks/*": ["hooks/*"],
       "@store/*": ["store/*"],
       "@utils/*": ["utils/*"],
-      "@public/*": ["../public/*"],
-    },
+      "@public/*": ["../public/*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules", "cypress"],
+  "exclude": ["node_modules", "cypress"]
 }
