@@ -26,7 +26,7 @@
     "@nestjs/throttler": "^5.1.2",
     "@ordzaar/standard-typescript": "workspace:*",
     "@swc/cli": "^0.3.10",
-    "@swc/core": "^1.4.2",
+    "@swc/core": "^1.4.4",
     "async-mutex": "^0.4.1",
     "cache-manager": "^5.4.0",
     "helmet": "^7.1.0",
