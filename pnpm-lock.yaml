@@ -216,11 +216,11 @@ importers:
         specifier: ^5.24.8
         version: 5.24.8(react@18.2.0)
       '@types/react':
-        specifier: 18.2.62
-        version: 18.2.62
+        specifier: 18.2.63
+        version: 18.2.63
       '@types/react-dom':
-        specifier: 18.2.19
-        version: 18.2.19
+        specifier: 18.2.20
+        version: 18.2.20
       next:
         specifier: 14.1.2
         version: 14.1.2(react-dom@18.2.0)(react@18.2.0)
@@ -241,7 +241,7 @@ importers:
         version: 5.0.1(react@18.2.0)
       react-redux:
         specifier: ^9.1.0
-        version: 9.1.0(@types/react@18.2.62)(react@18.2.0)(redux@5.0.1)
+        version: 9.1.0(@types/react@18.2.63)(react@18.2.0)(redux@5.0.1)
       react-responsive:
         specifier: ^9.0.2
         version: 9.0.2(react@18.2.0)
@@ -2462,7 +2462,7 @@ packages:
     dependencies:
       immer: 10.0.3
       react: 18.2.0
-      react-redux: 9.1.0(@types/react@18.2.62)(react@18.2.0)(redux@5.0.1)
+      react-redux: 9.1.0(@types/react@18.2.63)(react@18.2.0)(redux@5.0.1)
       redux: 5.0.1
       redux-thunk: 3.1.0(redux@5.0.1)
       reselect: 5.1.0
@@ -2737,14 +2737,14 @@ packages:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
     dev: false
 
-  /@types/react-dom@18.2.19:
-    resolution: {integrity: sha512-aZvQL6uUbIJpjZk4U8JZGbau9KDeAwMfmhyWorxgBkqDIEf6ROjRozcmPIicqsUwPUjbkDfHKgGee1Lq65APcA==}
+  /@types/react-dom@18.2.20:
+    resolution: {integrity: sha512-HXN/biJY8nv20Cn9ZbCFq3liERd4CozVZmKbaiZ9KiKTrWqsP7eoGDO6OOGvJQwoVFuiXaiJ7nBBjiFFbRmQMQ==}
     dependencies:
-      '@types/react': 18.2.62
+      '@types/react': 18.2.63
     dev: false
 
-  /@types/react@18.2.62:
-    resolution: {integrity: sha512-l3f57BbaEKP0xcFzf+5qRG8/PXykZiuVM6eEoPtqBPCp6dxO3HhDkLIgIyXPhPKNAeXn3KO2pEaNgzaEo/asaw==}
+  /@types/react@18.2.63:
+    resolution: {integrity: sha512-ppaqODhs15PYL2nGUOaOu2RSCCB4Difu4UFrP4I3NHLloXC/ESQzQMi9nvjfT1+rudd0d2L3fQPJxRSey+rGlQ==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -7698,7 +7698,7 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
 
-  /react-redux@9.1.0(@types/react@18.2.62)(react@18.2.0)(redux@5.0.1):
+  /react-redux@9.1.0(@types/react@18.2.63)(react@18.2.0)(redux@5.0.1):
     resolution: {integrity: sha512-6qoDzIO+gbrza8h3hjMA9aq4nwVFCKFtY2iLxCtVT38Swyy2C/dJCGBXHeHLtx6qlg/8qzc2MrhOeduf5K32wQ==}
     peerDependencies:
       '@types/react': ^18.2.25
@@ -7713,7 +7713,7 @@ packages:
       redux:
         optional: true
     dependencies:
-      '@types/react': 18.2.62
+      '@types/react': 18.2.63
       '@types/use-sync-external-store': 0.0.3
       react: 18.2.0
       redux: 5.0.1
