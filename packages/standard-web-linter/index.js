@@ -62,7 +62,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["*.tsx", ".jsx"],
+      files: ["*.tsx", "*.jsx", "*.ts", "*.js"],
       rules: {
         "simple-import-sort/imports": [
           "error",
@@ -70,15 +70,15 @@ module.exports = {
             groups: [
               // External: react, without @ prefix (nextjs), with @ prefix (@ordzaar, @radix-ui, @very-long-package)
               // Ensures that these are really external packages by excluding:
-              // content, api, contexts, components, hooks, store, utils, public, types
+              // content, api, contexts, components, hooks, providers, store, utils, public, types
               // e.g. content/foo and @content/foo is excluded from the group, but not contents/foo and @contents/foo
               [
                 "^react",
-                "^(?!content\b|api\b|contexts\b|components\b|hooks\b|store\b|utils\b|public\b|types\b|app\b)\\w+",
-                "^@(?!(content|api|contexts|components|hooks|store|utils|public|types|app)\\b)(\\w+|((?:\\w+-)+\\w+))\\b(/.*|$)",
+                "^(?!content\b|api\b|contexts\b|components\b|hooks\b|providers\b|store\b|utils\b|public\b|types\b|app\b)\\w+",
+                "^@(?!(content|api|contexts|components|hooks|providers|store|utils|public|types|app)\\b)(\\w+|((?:\\w+-)+\\w+))\\b(/.*|$)",
               ],
               // Internal packages: @/file, contexts/file, @contexts/file
-              ["^(@|content|api|contexts|components|hooks|store|utils|public|types|app|@\\w+)(/.*|$)"],
+              ["^(@|content|api|contexts|components|hooks|providers|store|utils|public|types|app|@\\w+)(/.*|$)"],
               // Side effect imports.
               ["^\\u0000"],
               // Parent imports. Put `..` last.
