@@ -12,7 +12,7 @@
     "@fastify/secure-session": "^7.1.0",
     "@fastify/static": "^7.0.1",
     "@nestjs/axios": "^3.0.2",
-    "@nestjs/cache-manager": "^2.2.1",
+    "@nestjs/cache-manager": "^2.2.2",
     "@nestjs/cli": "^10.3.2",
     "@nestjs/common": "^10.3.5",
     "@nestjs/config": "^3.2.0",
