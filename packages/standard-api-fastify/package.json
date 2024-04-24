@@ -5,7 +5,7 @@
     "tsconfig.json"
   ],
   "dependencies": {
-    "@compodoc/compodoc": "^1.1.23",
+    "@compodoc/compodoc": "^1.1.24",
     "@fastify/compress": "^7.0.3",
     "@fastify/helmet": "^11.1.1",
     "@fastify/multipart": "^8.2.0",
