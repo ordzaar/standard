@@ -198,8 +198,8 @@ importers:
   packages/standard-typescript:
     dependencies:
       typescript:
-        specifier: 5.5.2
-        version: 5.5.2
+        specifier: 5.5.3
+        version: 5.5.3
 
   packages/standard-web:
     dependencies:
@@ -4723,11 +4723,6 @@ packages:
 
   typescript@5.3.3:
     resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
-    engines: {node: '>=14.17'}
-    hasBin: true
-
-  typescript@5.5.2:
-    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -10013,8 +10008,6 @@ snapshots:
       typed-array-byte-offset: 1.0.2
 
   typescript@5.3.3: {}
-
-  typescript@5.5.2: {}
 
   typescript@5.5.3: {}
 
