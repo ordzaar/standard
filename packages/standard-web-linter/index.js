@@ -59,6 +59,7 @@ module.exports = {
     "import/order": "off",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
+    "import/prefer-default-export": "off",
   },
   overrides: [
     {
