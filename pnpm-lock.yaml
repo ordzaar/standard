@@ -58,7 +58,7 @@ importers:
         version: 3.0.2(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(axios@1.7.2)(rxjs@7.8.1)
       '@nestjs/cache-manager':
         specifier: ^2.2.2
-        version: 2.2.2(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(reflect-metadata@0.2.2)(rxjs@7.8.1))(cache-manager@5.7.3)(rxjs@7.8.1)
+        version: 2.2.2(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(reflect-metadata@0.2.2)(rxjs@7.8.1))(cache-manager@5.7.4)(rxjs@7.8.1)
       '@nestjs/cli':
         specifier: ^10.4.2
         version: 10.4.2(@swc/cli@0.4.0(@swc/core@1.7.0(@swc/helpers@0.5.11))(chokidar@3.6.0))(@swc/core@1.7.0(@swc/helpers@0.5.11))
@@ -105,8 +105,8 @@ importers:
         specifier: ^0.5.0
         version: 0.5.0
       cache-manager:
-        specifier: ^5.7.3
-        version: 5.7.3
+        specifier: ^5.7.4
+        version: 5.7.4
       helmet:
         specifier: ^7.1.0
         version: 7.1.0
@@ -1973,8 +1973,8 @@ packages:
     resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
     engines: {node: '>=10.16.0'}
 
-  cache-manager@5.7.3:
-    resolution: {integrity: sha512-Vp2gd2aDm/MXdEWD0FLdOflvcVj4rdJ1FFmPUeOKq+fuL7MEUcezbTWxQmVB1TTN5Ig92CabMfi5z+HyQwVg9A==}
+  cache-manager@5.7.4:
+    resolution: {integrity: sha512-7B29xK1D8hOVdrP0SAy2DGJ/QZxy2TqxS8s2drlLGYI/xOTSJmXfatks7aKKNHvXN6SnKnPtYCi0T82lslB3Fw==}
     engines: {node: '>= 18'}
 
   cacheable-lookup@5.0.4:
@@ -6067,11 +6067,11 @@ snapshots:
       axios: 1.7.2
       rxjs: 7.8.1
 
-  '@nestjs/cache-manager@2.2.2(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(reflect-metadata@0.2.2)(rxjs@7.8.1))(cache-manager@5.7.3)(rxjs@7.8.1)':
+  '@nestjs/cache-manager@2.2.2(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(reflect-metadata@0.2.2)(rxjs@7.8.1))(cache-manager@5.7.4)(rxjs@7.8.1)':
     dependencies:
       '@nestjs/common': 10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/core': 10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(reflect-metadata@0.2.2)(rxjs@7.8.1)
-      cache-manager: 5.7.3
+      cache-manager: 5.7.4
       rxjs: 7.8.1
 
   '@nestjs/cli@10.4.2(@swc/cli@0.4.0(@swc/core@1.7.0(@swc/helpers@0.5.11))(chokidar@3.6.0))(@swc/core@1.7.0(@swc/helpers@0.5.11))':
@@ -6985,7 +6985,7 @@ snapshots:
     dependencies:
       streamsearch: 1.1.0
 
-  cache-manager@5.7.3:
+  cache-manager@5.7.4:
     dependencies:
       eventemitter3: 5.0.1
       lodash.clonedeep: 4.5.0
