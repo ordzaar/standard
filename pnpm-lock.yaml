@@ -105,7 +105,7 @@ importers:
         specifier: ^0.5.0
         version: 0.5.0
       cache-manager:
-        specifier: ^5.7.3
+        specifier: ^5.7.6
         version: 5.7.6
       helmet:
         specifier: ^7.1.0
@@ -210,10 +210,10 @@ importers:
         specifier: workspace:*
         version: link:../standard-typescript
       '@reduxjs/toolkit':
-        specifier: ^2.2.6
+        specifier: ^2.2.7
         version: 2.2.7(react-redux@9.1.2(@types/react@18.3.3)(react@18.3.1)(redux@5.0.1))(react@18.3.1)
       '@tanstack/react-query':
-        specifier: ^5.51.14
+        specifier: ^5.51.23
         version: 5.52.1(react@18.3.1)
       '@types/react':
         specifier: 18.3.3
@@ -237,7 +237,7 @@ importers:
         specifier: 18.3.1
         version: 18.3.1(react@18.3.1)
       react-icons:
-        specifier: ^5.2.1
+        specifier: ^5.3.0
         version: 5.3.0(react@18.3.1)
       react-redux:
         specifier: ^9.1.2
