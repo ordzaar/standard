@@ -36,7 +36,7 @@ importers:
   packages/standard-api-fastify:
     dependencies:
       '@compodoc/compodoc':
-        specifier: ^1.1.25
+        specifier: ^1.1.26
         version: 1.1.26(typescript@5.3.3)
       '@fastify/compress':
         specifier: ^7.0.3
