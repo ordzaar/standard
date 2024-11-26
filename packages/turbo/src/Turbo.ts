@@ -54,7 +54,13 @@ export class Turbo {
    * @param {Record<string, string | undefined>} opts for turbo CLI
    */
   runTask(task: string, opts?: Record<string, string | undefined>): void {
-    this.exec(["run", task, ...optionsAsArgs(opts)]);
+    try {
+      this.exec(["run", task, ...optionsAsArgs(opts)]);
+    } catch (e) {
+      // log and ignore the error
+      // eslint-disable-next-line no-console
+      console.error(e);
+    }
   }
 
   runTasks(
@@ -64,25 +70,31 @@ export class Turbo {
     }[],
     opts?: Record<string, string | undefined>,
   ): void {
-    /**
-     * Optimize the order of the pipelines to run where the most concurrent pipelines are run first.
-     */
-    const priority: Record<string, number> = {
-      "build:docker": 1,
-      default: Number.MAX_VALUE,
-    };
-    pipelines.sort((a, b): number => (priority[a.task] || priority.default) - (priority[b.task] || priority.default));
+    try {
+      /**
+       * Optimize the order of the pipelines to run where the most concurrent pipelines are run first.
+       */
+      const priority: Record<string, number> = {
+        "build:docker": 1,
+        default: Number.MAX_VALUE,
+      };
+      pipelines.sort((a, b): number => (priority[a.task] || priority.default) - (priority[b.task] || priority.default));
 
-    // eslint-disable-next-line no-restricted-syntax
-    for (const pipeline of pipelines) {
-      this.exec([
-        "run",
-        pipeline.task,
-        ...optionsAsArgs({
-          ...opts,
-          ...pipeline.opts,
-        }),
-      ]);
+      // eslint-disable-next-line no-restricted-syntax
+      for (const pipeline of pipelines) {
+        this.exec([
+          "run",
+          pipeline.task,
+          ...optionsAsArgs({
+            ...opts,
+            ...pipeline.opts,
+          }),
+        ]);
+      }
+    } catch (e) {
+      // log and ignore the error
+      // eslint-disable-next-line no-console
+      console.error(e);
     }
   }
 

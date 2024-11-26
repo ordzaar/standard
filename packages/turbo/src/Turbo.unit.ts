@@ -2,14 +2,14 @@ import * as process from "process";
 
 import { Turbo } from "./Turbo";
 
-it(`turbo.runTask('invalid-script') should be ignored; porting a desired behavior that was present in <1.8.0`, async () => {
+it(`turbo.runTask('invalid-script') should be ignored;`, async () => {
   const turbo = new Turbo(process.cwd());
   turbo.runTask("invalid-script", {
     filter: `@ordzaar/turbo^...`,
   });
 });
 
-it(`turbo.runTasks('invalid-script') should be ignored; porting a desired behavior that was present in <1.8.0`, async () => {
+it(`turbo.runTasks('invalid-script') should be ignored;`, async () => {
   const turbo = new Turbo(process.cwd());
   turbo.runTasks([
     {
