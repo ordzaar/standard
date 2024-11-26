@@ -1,0 +1,50 @@
+{
+  "name": "@ordzaar/turbo",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "ordzaar-turbo": "./cli.js"
+  },
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsc -b ./tsconfig.build.json",
+    "clean": "rm -rf dist",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write --ignore-unknown"
+    ],
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "@ordzaar"
+    ]
+  },
+  "jest": {
+    "preset": "@ordzaar/jest"
+  },
+  "dependencies": {
+    "clipanion": "3.2.1"
+  },
+  "devDependencies": {
+    "@ordzaar/jest": "workspace:*",
+    "@ordzaar/standard-typescript": "workspace:*",
+    "turbo": "1.10.14"
+  },
+  "peerDependencies": {
+    "turbo": "*"
+  }
+}

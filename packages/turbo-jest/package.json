@@ -1,0 +1,15 @@
+{
+  "name": "@ordzaar/turbo-jest",
+  "version": "0.0.0",
+  "files": [
+    "jest-preset.js",
+    "jest-turbo.js"
+  ],
+  "dependencies": {
+    "@ordzaar/jest": "workspace:*",
+    "@ordzaar/turbo": "workspace:*"
+  },
+  "devDependencies": {
+    "@ordzaar/standard-typescript": "workspace:*"
+  }
+}
