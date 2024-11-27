@@ -1,0 +1,7 @@
+{
+  "extends": "@ordzaar/standard-typescript",
+  "compilerOptions": {
+    "rootDir": "./",
+    "module": "CommonJS"
+  }
+}

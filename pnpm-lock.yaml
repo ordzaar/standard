@@ -42,6 +42,25 @@ importers:
         specifier: workspace:*
         version: link:../standard-linter
 
+  packages/jellyfish-json:
+    dependencies:
+      '@types/lossless-json':
+        specifier: ^1.0.1
+        version: 1.0.4
+      bignumber.js:
+        specifier: ^9.0.2
+        version: 9.1.2
+      lossless-json:
+        specifier: ^1.0.5
+        version: 1.0.5
+    devDependencies:
+      '@ordzaar/standard-typescript':
+        specifier: workspace:*
+        version: link:../standard-typescript
+      '@ordzaar/turbo-jest':
+        specifier: workspace:*
+        version: link:../turbo-jest
+
   packages/jest:
     dependencies:
       '@types/jest':
@@ -1829,6 +1848,9 @@ packages:
   '@types/keyv@3.1.4':
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
 
+  '@types/lossless-json@1.0.4':
+    resolution: {integrity: sha512-eHhzo0p2p9On3cTr5X0Q0XsOjJxkqYzQi5Le5ObSiJjnLlGpDQvTcQEXknCkvKOFLBLa8ny4dgJKr0ADRV8yig==}
+
   '@types/node-fetch@2.6.11':
     resolution: {integrity: sha512-24xFj9R5+rfQJLRyM56qh+wnVSYhyXC2tkoBndtY0U+vubqNsYXGjufB2nn8Q6gt0LrARwL6UBtMCSVCwl4B1g==}
 
@@ -2258,6 +2280,9 @@ packages:
 
   bcryptjs@2.4.3:
     resolution: {integrity: sha512-V/Hy/X9Vt7f3BbPJEi8BdVFMByHi+jNXrYkW3huaybV/kQ0KJg0Y6PkEMbn+zeT+i+SiKZ/HMqJGIIt4LZDqNQ==}
+
+  bignumber.js@9.1.2:
+    resolution: {integrity: sha512-2/mKyZH9K85bzOEfhXDBFZTGd1CTs+5IHpeFQo9luiBG7hghdC851Pj2WAhb6E3R6b9tZj/XKhbg4fum+Kepug==}
 
   bin-check@4.1.0:
     resolution: {integrity: sha512-b6weQyEUKsDGFlACWSIOfveEnImkJyK/FGW6FAG42loyoquvjdtOIqO6yBFzHyqyVVhNgNkQxxx09SFLK28YnA==}
@@ -4203,6 +4228,9 @@ packages:
   loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
+
+  lossless-json@1.0.5:
+    resolution: {integrity: sha512-RicKUuLwZVNZ6ZdJHgIZnSeA05p8qWc5NW0uR96mpPIjN9WDLUg9+kj1esQU1GkPn9iLZVKatSQK5gyiaFHgJA==}
 
   lowercase-keys@2.0.0:
     resolution: {integrity: sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==}
@@ -7586,6 +7614,8 @@ snapshots:
     dependencies:
       '@types/node': 22.7.9
 
+  '@types/lossless-json@1.0.4': {}
+
   '@types/node-fetch@2.6.11':
     dependencies:
       '@types/node': 22.7.9
@@ -8151,6 +8181,8 @@ snapshots:
       tweetnacl: 0.14.5
 
   bcryptjs@2.4.3: {}
+
+  bignumber.js@9.1.2: {}
 
   bin-check@4.1.0:
     dependencies:
@@ -10497,6 +10529,8 @@ snapshots:
   loose-envify@1.4.0:
     dependencies:
       js-tokens: 4.0.0
+
+  lossless-json@1.0.5: {}
 
   lowercase-keys@2.0.0: {}
 
