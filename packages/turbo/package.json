@@ -37,12 +37,12 @@
     "preset": "@ordzaar/jest"
   },
   "dependencies": {
-    "clipanion": "3.2.1"
+    "clipanion": "4.0.0-rc.4"
   },
   "devDependencies": {
     "@ordzaar/jest": "workspace:*",
     "@ordzaar/standard-typescript": "workspace:*",
-    "turbo": "1.13.4"
+    "turbo": "2.3.3"
   },
   "peerDependencies": {
     "turbo": "*"

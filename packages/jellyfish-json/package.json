@@ -15,14 +15,14 @@
   "dependencies": {
     "@types/lossless-json": "^1.0.4",
     "bignumber.js": "^9.1.2",
-    "lossless-json": "^1.0.5"
+    "lossless-json": "^4.0.2"
   },
   "jest": {
     "displayName": "test",
     "preset": "@ordzaar/turbo-jest"
   },
   "devDependencies": {
-    "@ordzaar/turbo-jest": "workspace:*",
-    "@ordzaar/standard-typescript": "workspace:*"
+    "@ordzaar/standard-typescript": "workspace:*",
+    "@ordzaar/turbo-jest": "workspace:*"
   }
 }
