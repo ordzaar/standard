@@ -45,7 +45,7 @@ importers:
   packages/jellyfish-json:
     dependencies:
       '@types/lossless-json':
-        specifier: ^1.0.1
+        specifier: ^1.0.4
         version: 1.0.4
       bignumber.js:
         specifier: ^9.0.2
