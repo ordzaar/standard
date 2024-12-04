@@ -35,12 +35,12 @@
     "preset": "@ordzaar/turbo-jest"
   },
   "dependencies": {
-    "testcontainers": "^9.12.0"
+    "testcontainers": "^10.15.0"
   },
   "devDependencies": {
-    "@ordzaar/turbo-jest": "workspace:*",
     "@ordzaar/standard-typescript": "workspace:*",
+    "@ordzaar/turbo-jest": "workspace:*",
     "@types/node-fetch": "2.6.12",
-    "node-fetch": "2.7.0"
+    "node-fetch": "3.3.2"
   }
 }

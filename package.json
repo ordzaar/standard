@@ -17,8 +17,8 @@
   },
   "prettier": "@ordzaar/standard-prettier",
   "devDependencies": {
-    "@ordzaar/standard-prettier": "workspace:*",
     "@ordzaar/eslint-config": "workspace:*",
+    "@ordzaar/standard-prettier": "workspace:*",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
     "prettier": "^3.4.1",

@@ -22,7 +22,7 @@
     "preset": "@ordzaar/turbo-jest"
   },
   "devDependencies": {
-    "@ordzaar/turbo-jest": "workspace:*",
-    "@ordzaar/standard-typescript": "workspace:*"
+    "@ordzaar/standard-typescript": "workspace:*",
+    "@ordzaar/turbo-jest": "workspace:*"
   }
 }
