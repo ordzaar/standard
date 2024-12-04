@@ -21,3 +21,6 @@ coverage
 
 # turborepo
 .turbo
+
+# typescript
+tsconfig.build.tsbuildinfo
