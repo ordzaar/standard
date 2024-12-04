@@ -84,6 +84,6 @@ export const JellyfishJSON = {
       return value;
     }
 
-    return stringify(value, replacer);
+    return stringify(value, replacer) as string;
   },
 };
