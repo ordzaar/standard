@@ -42,7 +42,7 @@
   "devDependencies": {
     "@ordzaar/jest": "workspace:*",
     "@ordzaar/standard-typescript": "workspace:*",
-    "turbo": "1.10.14"
+    "turbo": "1.13.4"
   },
   "peerDependencies": {
     "turbo": "*"
