@@ -1,0 +1,11 @@
+{
+  "name": "@ordzaar/eslint-config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@ordzaar/standard-linter": "workspace:*"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "@ordzaar/testcontainers",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsc -b ./tsconfig.build.json",
+    "clean": "rm -rf dist",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write --ignore-unknown"
+    ],
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "@ordzaar"
+    ]
+  },
+  "jest": {
+    "displayName": "test",
+    "preset": "@ordzaar/turbo-jest"
+  },
+  "dependencies": {
+    "testcontainers": "^9.12.0"
+  },
+  "devDependencies": {
+    "@ordzaar/turbo-jest": "workspace:*",
+    "@ordzaar/standard-typescript": "workspace:*",
+    "@types/node-fetch": "2.6.11",
+    "node-fetch": "2.7.0"
+  }
+}
