@@ -256,6 +256,9 @@ importers:
       '@next/third-parties':
         specifier: ^14.2.19
         version: 14.2.19(next@14.2.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+      '@ordzaar/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
       '@ordzaar/standard-typescript':
         specifier: workspace:*
         version: link:../standard-typescript

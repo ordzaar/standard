@@ -6,6 +6,7 @@
   ],
   "dependencies": {
     "@next/third-parties": "^14.2.19",
+    "@ordzaar/eslint-config": "workspace:*",
     "@ordzaar/standard-typescript": "workspace:*",
     "@reduxjs/toolkit": "^2.4.0",
     "@tanstack/react-query": "^5.62.2",
