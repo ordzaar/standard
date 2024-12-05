@@ -3,7 +3,7 @@ module.exports = {
   parserOptions: {
     project: "./tsconfig.json",
   },
-  plugins: ["simple-import-sort", "prettier"],
+  plugins: ["simple-import-sort", "prettier", "unused-imports"],
   rules: {
     // Fix airbnb-typescript/base rule to allow leading underscores for unused vars
     "@typescript-eslint/naming-convention": [
@@ -22,7 +22,8 @@ module.exports = {
         format: ["PascalCase"],
       },
     ],
-    "@typescript-eslint/no-unused-vars": [
+    "@typescript-eslint/no-unused-vars": "off",
+    "unused-imports/no-unused-vars": [
       "error",
       {
         argsIgnorePattern: "^_",
@@ -30,6 +31,7 @@ module.exports = {
         caughtErrorsIgnorePattern: "^_",
       },
     ],
+    "unused-imports/no-unused-imports": "error",
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [
