@@ -23,7 +23,7 @@
     "eslint-plugin-unused-imports": "^4.1.4",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
-    "next": "^14.2.19",
+    "next": "^14.2.20",
     "prettier": "^3.4.2"
   }
 }
