@@ -33,7 +33,7 @@
   "packageManager": "pnpm@9.15.0",
   "pnpm": {
     "overrides": {
-      "eslint-plugin-react-hooks": "5.0.0"
+      "eslint-plugin-react-hooks": "5.1.0"
     }
   }
 }
