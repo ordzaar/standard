@@ -1,11 +1,5 @@
 module.exports = {
-  extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "airbnb-base",
-    "airbnb-typescript/base",
-    "prettier",
-  ],
+  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
   plugins: ["simple-import-sort", "check-file", "unused-imports", "prettier"],
   parser: "@typescript-eslint/parser",
   rules: {

@@ -8,12 +8,10 @@ Standard linter for TS projects that do not run with web frameworks. This module
 
 Lint rules are extended from these packages
 
-| Package                          | Description                                           |
-| -------------------------------- | ----------------------------------------------------- |
-| @typescript-eslint/parser        | Rules parser for TypeScript.                          |
-| eslint-config-airbnb-base        | Rules defined by airbnb.                              |
-| eslint-config-airbnb-typescript  | Rules defined by airbnb for TypeScript without React. |
-| eslint-plugin-simple-import-sort | Rules defined for simple import sorting.              |
-| prettier                         | Rules defined by prettier to have same code styles    |
-| eslint-plugin-unused-imports     | Rules to auto remove unused import                    |
-| eslint-plugin-check-file         | Rules to enforce file name checking (off by default)  |
+| Package                          | Description                                          |
+| -------------------------------- | ---------------------------------------------------- |
+| @typescript-eslint/parser        | Rules parser for TypeScript.                         |
+| eslint-plugin-simple-import-sort | Rules defined for simple import sorting.             |
+| prettier                         | Rules defined by prettier to have same code styles   |
+| eslint-plugin-unused-imports     | Rules to auto remove unused import                   |
+| eslint-plugin-check-file         | Rules to enforce file name checking (off by default) |

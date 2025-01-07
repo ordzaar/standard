@@ -31,6 +31,9 @@
     },
     "extends": [
       "@ordzaar"
+    ],
+    "ignorePatterns": [
+      "*.js"
     ]
   },
   "jest": {
