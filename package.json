@@ -20,7 +20,7 @@
     "@ordzaar/eslint-config": "workspace:*",
     "@ordzaar/standard-prettier": "workspace:*",
     "husky": "^9.1.7",
-    "lint-staged": "^15.2.10",
+    "lint-staged": "^15.3.0",
     "prettier": "^3.4.2",
     "semver": "^7.6.3",
     "turbo": "^2.3.3",
