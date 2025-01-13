@@ -23,7 +23,7 @@
     "@nestjs/swagger": "^7.4.2",
     "@nestjs/terminus": "^10.2.3",
     "@nestjs/testing": "^10.4.15",
-    "@nestjs/throttler": "^6.2.1",
+    "@nestjs/throttler": "^6.3.0",
     "@ordzaar/standard-typescript": "workspace:*",
     "@swc/cli": "^0.5.2",
     "@swc/core": "^1.10.0",
