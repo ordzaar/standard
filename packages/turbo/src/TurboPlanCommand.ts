@@ -9,7 +9,6 @@ import { Turbo } from "./Turbo";
  * You can use the output and loop through an array to run test individually via `turbo run test --filter=package`
  */
 
-// eslint-disable-next-line import/prefer-default-export
 export class TurboPlanCommand extends Command {
   static override paths = [[`plan`]];
 

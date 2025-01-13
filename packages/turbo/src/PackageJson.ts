@@ -3,7 +3,6 @@ import { readFileSync } from "node:fs";
 /**
  * `package.json` represented as constructable Class.
  */
-// eslint-disable-next-line import/prefer-default-export
 export class PackageJson {
   private readonly json: {
     name: string;
