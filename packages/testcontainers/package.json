@@ -35,7 +35,7 @@
     "preset": "@ordzaar/turbo-jest"
   },
   "dependencies": {
-    "testcontainers": "^10.15.0"
+    "testcontainers": "^10.16.0"
   },
   "devDependencies": {
     "@ordzaar/standard-typescript": "workspace:*",
