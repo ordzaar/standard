@@ -161,8 +161,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0
       nestjs-pino:
-        specifier: ^4.1.0
-        version: 4.1.0(@nestjs/common@10.4.15(reflect-metadata@0.2.2)(rxjs@7.8.1))(pino-http@10.3.0)
+        specifier: ^4.2.0
+        version: 4.2.0(@nestjs/common@10.4.15(reflect-metadata@0.2.2)(rxjs@7.8.1))(pino-http@10.3.0)
       pino-pretty:
         specifier: ^13.0.0
         version: 13.0.0
@@ -4529,8 +4529,8 @@ packages:
     resolution: {integrity: sha512-Z4SmBUweYa09+o6pG+eASabEpP6QkQ70yHj351pQoEXIs8uHbaU2DWVmzBANKgflPa47A50PtB2+NgRpQvr7vA==}
     engines: {node: '>= 10'}
 
-  nestjs-pino@4.1.0:
-    resolution: {integrity: sha512-I6zcddauD2TNMRbsraEIxNUvHcz0El5QRUYH5eY1+pBzj7R17U+Yoyypoc+akVdSLWJ1r0kDYAZPy2mlhXv6vw==}
+  nestjs-pino@4.2.0:
+    resolution: {integrity: sha512-+YpNb+ZyWq+vZqhMLRGyV8838n/sjdvLsHjPjmw+yW8+hnE9yVP50MdehtGcHA9d7z2XVccT/GUp8pI1U+nDvA==}
     engines: {node: '>= 14'}
     peerDependencies:
       '@nestjs/common': ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -11101,7 +11101,7 @@ snapshots:
 
   neotraverse@0.6.18: {}
 
-  nestjs-pino@4.1.0(@nestjs/common@10.4.15(reflect-metadata@0.2.2)(rxjs@7.8.1))(pino-http@10.3.0):
+  nestjs-pino@4.2.0(@nestjs/common@10.4.15(reflect-metadata@0.2.2)(rxjs@7.8.1))(pino-http@10.3.0):
     dependencies:
       '@nestjs/common': 10.4.15(reflect-metadata@0.2.2)(rxjs@7.8.1)
       pino-http: 10.3.0
