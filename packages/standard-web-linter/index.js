@@ -1,11 +1,10 @@
 module.exports = {
-  extends: ["next/core-web-vitals", "airbnb", "airbnb-typescript", "prettier"],
+  extends: ["next/core-web-vitals", "prettier"],
   parserOptions: {
     project: "./tsconfig.json",
   },
   plugins: ["simple-import-sort", "prettier", "unused-imports"],
   rules: {
-    // Fix airbnb-typescript/base rule to allow leading underscores for unused vars
     "@typescript-eslint/naming-convention": [
       "error",
       {
